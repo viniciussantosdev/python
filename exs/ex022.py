@@ -1,0 +1,5 @@
+nc = str(input('Digite seu nome completo: '))
+print('Seu nome em maísculas fica {}'.format(nc.upper()))
+print('Seu nome em minúsculas fica {}'.format(nc.lower()))
+print('Ao todo seu nome tem {} letras'.format(len(nc) - nc.count(' ')))
+print('Seu primeiro nome tem {} letras'.format(nc.find(' ')))
